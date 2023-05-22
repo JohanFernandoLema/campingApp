@@ -1,0 +1,29 @@
+.container {
+  width: 80%;
+  margin: auto;
+  .card {
+    margin: 5rem 0;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    // #FBFAF8 ----- bg - color
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    p {
+      letter-spacing: 0.1rem;
+    }
+    h3 {
+      color: yellow;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 3.5rem;
+    }
+    .imageContainer {
+      display: flex;
+      justify-content: center;
+      .picture {
+        height: 20rem;
+      }
+    }
+  }
+}
