@@ -1,3 +1,64 @@
-.title {
-  font-size: 4rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainBackground {
+  background-image: url(../../../public/Assets/images/campingBackground.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: bottom;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    color: #fff;
+    .title {
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      margin-left: 4rem;
+    }
+    .links {
+      display: flex;
+      align-items: center;
+    }
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+    ul li a {
+      margin-right: 2rem;
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+    .storeLink {
+      display: flex;
+      align-items: center;
+      button {
+        background: #058e3f;
+        border: none;
+        padding: 1rem;
+        color: #fff;
+        font-size: 1rem;
+        margin-right: 4rem;
+      }
+    }
+  }
+  .quote {
+    width: 80%;
+    margin: auto;
+    h1 {
+      color: #fff;
+      float: right;
+      max-width: 40%;
+      position: relative;
+      top: 60px;
+    }
+    span {
+      font-size: 5rem;
+    }
+  }
 }
