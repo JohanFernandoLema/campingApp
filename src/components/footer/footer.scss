@@ -4,12 +4,43 @@
   .container {
     width: 80%;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
     h3 {
       font-size: 4rem;
       padding: 3.5rem 0;
     }
     span {
       color: yellow;
+    }
+    .campground {
+      margin-top: 3.3rem;
+      font-size: 4rem;
+      color: brown;
+    }
+
+    .socialMedia ul {
+      list-style-type: none;
+      margin-top: 3.5rem;
+      display: flex;
+    }
+    .socialMedia ul li {
+      font-size: 50px;
+      margin: 0 1rem;
+      color: white;
+    }
+    .socialMedia ul li a {
+      color: white;
+    }
+  }
+  .lastSection {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    .privacy {
+      text-decoration: underline;
     }
   }
 }
